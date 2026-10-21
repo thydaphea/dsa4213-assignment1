@@ -1,0 +1,37 @@
+{
+  "method": "glove_frozen",
+  "embedding_training_seconds": 0.0,
+  "setup_seconds": 72.28843011499998,
+  "source": {
+    "source": "Stanford GloVe 6B 100d via gensim-data",
+    "downloader_name": "glove-wiki-gigaword-100",
+    "upstream_metadata": {
+      "num_records": 400000,
+      "file_size": 134300434,
+      "base_dataset": "Wikipedia 2014 + Gigaword 5 (6B tokens, uncased)",
+      "reader_code": "https://github.com/RaRe-Technologies/gensim-data/releases/download/glove-wiki-gigaword-100/__init__.py",
+      "license": "http://opendatacommons.org/licenses/pddl/",
+      "parameters": {
+        "dimension": 100
+      },
+      "description": "Pre-trained vectors based on Wikipedia 2014 + Gigaword 5.6B tokens, 400K vocab, uncased (https://nlp.stanford.edu/projects/glove/).",
+      "preprocessing": "Converted to w2v format with `python -m gensim.scripts.glove2word2vec -i <fname> -o glove-wiki-gigaword-100.txt`.",
+      "read_more": [
+        "https://nlp.stanford.edu/projects/glove/",
+        "https://nlp.stanford.edu/pubs/glove.pdf"
+      ],
+      "checksum": "40ec481866001177b8cd4cb0df92924f",
+      "file_name": "glove-wiki-gigaword-100.gz",
+      "parts": 1
+    }
+  },
+  "gensim_version": "4.4.0",
+  "created_utc": "2026-10-15T08:04:33.653933+00:00",
+  "hardware": {
+    "cpu": "x86_64",
+    "logical_cpus": 2
+  },
+  "special_tokens": "PAD zero; BOS/EOS original random; CBOW UNK trained when observed, otherwise original random; public UNK original random.",
+  "fallback": "Keep original baseline random vectors for missing tokens; freeze all rows.",
+  "normalization": "No vector normalization or rescaling."
+}

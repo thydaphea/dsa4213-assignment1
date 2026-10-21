@@ -1,0 +1,64 @@
+{
+  "dataset": "/content/drive/MyDrive/DSA4213_Assignment1/partIII/yelp_polarity/datasets/07f2cabd6c44f2f7e813",
+  "features": [
+    {
+      "variant": "random_trainable",
+      "split": "train",
+      "cache_folder": "/content/drive/MyDrive/DSA4213_Assignment1/partIII/yelp_polarity/features/random_trainable/5b43c559525e4cb1b8315bbc",
+      "features_sha256": "b6a852962937996ae2d3217b56903d8c5c0abaf99289e6f4f8b935db5c67e579"
+    },
+    {
+      "variant": "random_trainable",
+      "split": "validation",
+      "cache_folder": "/content/drive/MyDrive/DSA4213_Assignment1/partIII/yelp_polarity/features/random_trainable/156353b5997e286bf299a94d",
+      "features_sha256": "59e55e2f53248b3eef244cb60473c4fb43d3949f22ca09e053ef56ab27b1dc79"
+    },
+    {
+      "variant": "random_trainable",
+      "split": "test",
+      "cache_folder": "/content/drive/MyDrive/DSA4213_Assignment1/partIII/yelp_polarity/features/random_trainable/d3786bcff06695dac3e6ea20",
+      "features_sha256": "3e852531a6afef17bb3c085841182f6e80a37c729a0a73f403563c4b34784057"
+    },
+    {
+      "variant": "cbow_frozen",
+      "split": "train",
+      "cache_folder": "/content/drive/MyDrive/DSA4213_Assignment1/partIII/yelp_polarity/features/cbow_frozen/2af16b82c5db97a728c2f043",
+      "features_sha256": "f0dd8ef36cb85b95ad77597cd7b89254469436f74129ca19086c90689118294c"
+    },
+    {
+      "variant": "cbow_frozen",
+      "split": "validation",
+      "cache_folder": "/content/drive/MyDrive/DSA4213_Assignment1/partIII/yelp_polarity/features/cbow_frozen/7d9fefc13ff923275187921f",
+      "features_sha256": "689d4821fd0cb08ddc46989fe903c525f6a61f04e70259f262b159e55f0e0e5c"
+    },
+    {
+      "variant": "cbow_frozen",
+      "split": "test",
+      "cache_folder": "/content/drive/MyDrive/DSA4213_Assignment1/partIII/yelp_polarity/features/cbow_frozen/6c3b719789bf4d9f8583f6a8",
+      "features_sha256": "d227d55953b61d760423913c17b728d131070d9262ce9fcdcd7cb55da60240c5"
+    },
+    {
+      "variant": "glove_frozen",
+      "split": "train",
+      "cache_folder": "/content/drive/MyDrive/DSA4213_Assignment1/partIII/yelp_polarity/features/glove_frozen/5eacb5ce3380cd8289cd6085",
+      "features_sha256": "490e4007195e862f710274c754495ce975eb3e19f81b8b4295f02a8fb1534a9c"
+    },
+    {
+      "variant": "glove_frozen",
+      "split": "validation",
+      "cache_folder": "/content/drive/MyDrive/DSA4213_Assignment1/partIII/yelp_polarity/features/glove_frozen/66cbe95db85b523163653f41",
+      "features_sha256": "92a339e08d45fda547e3778f69efe05aa568b4ce0586365f242f08b363778e36"
+    },
+    {
+      "variant": "glove_frozen",
+      "split": "test",
+      "cache_folder": "/content/drive/MyDrive/DSA4213_Assignment1/partIII/yelp_polarity/features/glove_frozen/db4d3267a4f09bcafc47df13",
+      "features_sha256": "26a0a237f9f836dd47aabc573c8682418d03610eb1ba7f0f1a44810680fb4050"
+    }
+  ],
+  "classifiers": {
+    "random_trainable": "/content/drive/MyDrive/DSA4213_Assignment1/partIII/yelp_polarity/classifiers/random_trainable/b19f3e2ddf463c3930b65b0e",
+    "cbow_frozen": "/content/drive/MyDrive/DSA4213_Assignment1/partIII/yelp_polarity/classifiers/cbow_frozen/0992cfe318aa8cfff6afa740",
+    "glove_frozen": "/content/drive/MyDrive/DSA4213_Assignment1/partIII/yelp_polarity/classifiers/glove_frozen/32330c202d39a09418690e30"
+  }
+}

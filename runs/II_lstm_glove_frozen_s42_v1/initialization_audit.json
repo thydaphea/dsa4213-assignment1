@@ -1,0 +1,8 @@
+{
+  "non_embedding_initial_sha256": "fdac18d60d0fc10992095a68843d1726723343a3f172dbbdfd3b45fc29ea22b2",
+  "baseline_non_embedding_initial_sha256": "fdac18d60d0fc10992095a68843d1726723343a3f172dbbdfd3b45fc29ea22b2",
+  "embedding_initial_sha256": "9d60a91c5812b84e13974e76c55040b0f81f6e39d3d0de750f6e1312cb394039",
+  "embedding_final_sha256": "9d60a91c5812b84e13974e76c55040b0f81f6e39d3d0de750f6e1312cb394039",
+  "frozen": true,
+  "all_frozen_rows_unchanged": true
+}

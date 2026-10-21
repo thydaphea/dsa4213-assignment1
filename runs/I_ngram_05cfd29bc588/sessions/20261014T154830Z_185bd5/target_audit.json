@@ -1,0 +1,26 @@
+[
+  {
+    "split": "train",
+    "blocks": 46109,
+    "target_count": 2136678,
+    "target_ids_sha256": "ae4b21db3742677c53ecb283d67081f924307c531d2bec50f3e18fbe4001ce27",
+    "blocks_sha256": "374edb84aedc64618956757873b27889109931c226e130632b2ee5105ea03ac3",
+    "manifest_sha256": "7ad63ca11ecf20afd25c7f35b3882c02a26761197ec6341ac3ac15d9491c8beb"
+  },
+  {
+    "split": "validation",
+    "blocks": 4845,
+    "target_count": 223705,
+    "target_ids_sha256": "66c4b87cb1a5aa061d193d67e8463621804f164413de37b05d66b392a73a7ff9",
+    "blocks_sha256": "3b233eb72c4b2e1671b51ab4d6bdc087aa2fe721f80609114e48b32539f264fc",
+    "manifest_sha256": "81f90afe48f9fdad94b0c25a5df4f7e6908faa14507e7412a0723bf83ee8f91c"
+  },
+  {
+    "split": "test",
+    "blocks": 5652,
+    "target_count": 252697,
+    "target_ids_sha256": "d2d9b7c190d276289c49d4c953deca161d517617b37e7effa3c17137875144af",
+    "blocks_sha256": "7c651ec053b3a78699cb631e2fe3884af83f487761641fcaefe582fe1b79b79c",
+    "manifest_sha256": "f75caa84414c547656b649134b70408115b0a328839b2b3addb2d1709466677d"
+  }
+]

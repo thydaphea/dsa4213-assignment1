@@ -1,0 +1,5 @@
+package,preparation,current,matches
+datasets,4.8.5,4.8.5,True
+huggingface_hub,1.33.0,1.33.0,True
+numpy,2.1.3,2.1.3,True
+pandas,2.2.3,2.2.3,True

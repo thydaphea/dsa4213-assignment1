@@ -1,0 +1,22 @@
+{
+  "method": "cbow_frozen",
+  "embedding_training_seconds": 36.701851094000006,
+  "setup_seconds": 36.890763268,
+  "source": {
+    "training_rows": 21441,
+    "training_tokens": 2115237,
+    "algorithm": "CBOW with negative sampling",
+    "workers": 1,
+    "seed": 42,
+    "training_loss_note": "Unnormalized sampled objective; not LM CE/PPL and not an early-stopping criterion."
+  },
+  "gensim_version": "4.4.0",
+  "created_utc": "2026-10-15T07:32:05.040457+00:00",
+  "hardware": {
+    "cpu": "x86_64",
+    "logical_cpus": 2
+  },
+  "special_tokens": "PAD zero; BOS/EOS original random; CBOW UNK trained when observed, otherwise original random; public UNK original random.",
+  "fallback": "Keep original baseline random vectors for missing tokens; freeze all rows.",
+  "normalization": "No vector normalization or rescaling."
+}

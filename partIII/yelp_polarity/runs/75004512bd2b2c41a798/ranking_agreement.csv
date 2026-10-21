@@ -1,0 +1,4 @@
+variant_a,variant_b,lower_PPL_vs_higher_macroF1
+random_trainable,cbow_frozen,disagrees
+random_trainable,glove_frozen,disagrees
+cbow_frozen,glove_frozen,disagrees

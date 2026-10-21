@@ -1,0 +1,11 @@
+{
+  "complete": true,
+  "stop_reason": "early_stopping",
+  "best_epoch": 36,
+  "best_validation_ce": 4.422267791331287,
+  "epochs_completed": 43,
+  "train_seconds": 1400.4450540729995,
+  "validation_seconds": 55.16182235200074,
+  "train_including_validation_seconds": 1455.606876425,
+  "embedding_training_seconds": 36.701851094000006
+}

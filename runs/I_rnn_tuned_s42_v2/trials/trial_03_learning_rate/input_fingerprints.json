@@ -1,0 +1,49 @@
+{
+  "files": {
+    "config.json": "c73fcbfbaad6f843a7e5301d0a6185831957e28be4c645dcaaa74517c5bebd85",
+    "data_summary.csv": "9c79f58ecd1b45a5bcb9192c38b35515c61503b4d7cd008feac593bdc71dc2af",
+    "environment-full.txt": "13325ba82a12825375f742df4e79234ab5215bfb6ccc383a084b27beec5a5445",
+    "environment.json": "2fad9578da06b07bd40c781da4a67ea17da30da0c93a5655ad7496db8feaab4c",
+    "generation_prompts.json": "e21a106e0bb834b5dfe34b36c33c4ff7aeb3dad55c56831f9e1147bcf1b43a8b",
+    "preprocessing.py": "5c8361afe131e0f155c2e2292bd77412a1b8f4e83ef04e858a1a120362d046d2",
+    "removed_rows.csv": "2938e573f1a0b75372b6e52addb210af3232df6c0c0c225e3f0e17e02998c37e",
+    "requirements-data-lock.txt": "e326f38718154c766609bebe241e80b04eed928002a63312adcde29ebf86c2f6",
+    "source.json": "6fec8c471543a2997ec2717fe5d03e791530b21bfd04759556cffb3e86b57f08",
+    "test_blocks.npz": "7c651ec053b3a78699cb631e2fe3884af83f487761641fcaefe582fe1b79b79c",
+    "test_encoded.jsonl": "5a66bc08309a32d0be060a8d80a7c74c5f4742a23aee07561f155ee60f0c131c",
+    "test_manifest.csv": "f75caa84414c547656b649134b70408115b0a328839b2b3addb2d1709466677d",
+    "test_tokens.jsonl": "1fba8f6d8516bc4288c9dc21df408ebc0ac4ffc5d26536cb06d567f926f6d33c",
+    "train_blocks.npz": "374edb84aedc64618956757873b27889109931c226e130632b2ee5105ea03ac3",
+    "train_encoded.jsonl": "7f8a0036b1a5d02588ca9d7cad8d1ab1fbc6fbb954f0db8f91cacd97b20a405a",
+    "train_manifest.csv": "7ad63ca11ecf20afd25c7f35b3882c02a26761197ec6341ac3ac15d9491c8beb",
+    "train_tokens.jsonl": "ce640a177218ef07b9b353dd10bbf6572907690ab5b2e14b03a8dae153582259",
+    "validation_blocks.npz": "3b233eb72c4b2e1671b51ab4d6bdc087aa2fe721f80609114e48b32539f264fc",
+    "validation_encoded.jsonl": "7d31af41cfee676d34961693bc35b21adb93f8886cfa939aff41eadb662d4e77",
+    "validation_manifest.csv": "81f90afe48f9fdad94b0c25a5df4f7e6908faa14507e7412a0723bf83ee8f91c",
+    "validation_tokens.jsonl": "e5c73a900afd3a65851a7e45e0ce22baee3116e6af24736045671b2dc616c2d7",
+    "vocab.json": "da376c5f340c8656c3bec7b41daa4fbd0df83a827a451273748269240740e880"
+  },
+  "scored_targets": [
+    {
+      "split": "train",
+      "blocks": 46109,
+      "scored_tokens": 2136678,
+      "target_sha256": "9929fab2f9c24e21ddfdbde443912a3b008de91942ba29ee67f385a244d7bf3a",
+      "unknown_target_rate": 0.07521535767204979
+    },
+    {
+      "split": "validation",
+      "blocks": 4845,
+      "scored_tokens": 223705,
+      "target_sha256": "8e251aab5a325eecd02f3c9a3a5bc83af1894281b8187713c58ede218c641b29",
+      "unknown_target_rate": 0.09141503319103284
+    },
+    {
+      "split": "test",
+      "blocks": 5652,
+      "scored_tokens": 252697,
+      "target_sha256": "223687d4aa0f88b2e0fe543e12504c63df4774dbc86df54e4f9921618554c82f",
+      "unknown_target_rate": 0.09968064519958686
+    }
+  ]
+}

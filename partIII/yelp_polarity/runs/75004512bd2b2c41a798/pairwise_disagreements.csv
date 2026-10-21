@@ -1,0 +1,4 @@
+variant_a,variant_b,test_reviews,disagreements,disagreement_rate,a_correct_b_wrong,b_correct_a_wrong,both_correct,both_wrong
+random_trainable,cbow_frozen,1000,184,0.184,90,94,663,153
+random_trainable,glove_frozen,1000,212,0.212,76,136,677,111
+cbow_frozen,glove_frozen,1000,188,0.188,66,122,691,121

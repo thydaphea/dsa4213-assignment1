@@ -1,0 +1,19 @@
+{
+  "config": {
+    "variant": "glove_frozen",
+    "dimension": 100,
+    "vocab_sha256": "da376c5f340c8656c3bec7b41daa4fbd0df83a827a451273748269240740e880",
+    "train_tokens_sha256": "ce640a177218ef07b9b353dd10bbf6572907690ab5b2e14b03a8dae153582259",
+    "baseline_initial_sha256": "e99f8e2483cdc8e1b0f593376518df90eb3b7850b4bcf95159426c79fce23279",
+    "fallback": "original baseline random vector; PAD=0; entire table frozen",
+    "cbow": null,
+    "public_source": "glove-wiki-gigaword-100 / Stanford GloVe 6B 100d",
+    "source_mode": "gensim_downloader"
+  },
+  "files": {
+    "matrix.npy": "1590801730cffeeb95a377817b02a5ddad17b84d6302631745c27ec6124d1227",
+    "coverage_mask.npy": "461d78b31e04fad611f015a050a967f4955eef5408dce387cf329b5d2942402b",
+    "embedding_record.json": "eadc62f8cfec7214c08bc100bda4e98ba49f9bef145adba026d32b0142e0d76c",
+    "config.json": "6a8f42da41a8c9fe2a416556a082c3bb4682a97ad4a1be593c17c247157f075e"
+  }
+}

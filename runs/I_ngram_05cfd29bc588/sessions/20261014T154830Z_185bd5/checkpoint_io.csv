@@ -1,0 +1,3 @@
+operation,filename,seconds
+load,model.pkl,9.462227359999986
+load,inference.pkl,2.6264034179999953

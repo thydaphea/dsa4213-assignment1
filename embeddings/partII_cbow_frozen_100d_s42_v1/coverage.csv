@@ -1,0 +1,4 @@
+split,ordinary_vocab_types,covered_vocab_types,type_coverage,lexical_target_tokens,known_lexical_tokens,token_coverage_including_UNK,token_coverage_known_only,unknown_rate
+train,9996,9996,1.0,2115237,1954526,1.0,1.0,0.07597777459452534
+validation,9996,9996,1.0,221408,200958,1.0,1.0,0.09236341956930193
+test,9996,9996,1.0,249905,224716,1.0,1.0,0.10079430183469719

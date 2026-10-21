@@ -1,0 +1,19 @@
+{
+  "run_id": "I_ngram_05cfd29bc588",
+  "split": "train",
+  "nll_sum": 6867821.432067574,
+  "token_count": 2136678,
+  "ce": 3.2142519518933477,
+  "ppl": 24.884670016706593,
+  "rss_before_mib": 543.90625,
+  "seconds": 14.279019869000024,
+  "process_cpu_seconds": 10.995345945000004,
+  "rss_after_mib": 641.71875,
+  "sampled_peak_rss_mib": 756.37109375,
+  "sampled_peak_increment_mib": 212.46484375,
+  "data_hash": "5c68d62efdf5e7236754190978c709f406f05596b4ee29b56d35e6a628af21c2",
+  "vocab_hash": "da376c5f340c8656c3bec7b41daa4fbd0df83a827a451273748269240740e880",
+  "target_ids_sha256": "ae4b21db3742677c53ecb283d67081f924307c531d2bec50f3e18fbe4001ce27",
+  "checkpoint_sha256": "3debb64f30ec967c1937dcc2fa117f6b5226a287bbff0acd1a287bf4159d8e0a",
+  "evaluation_session_id": "20261014T154605Z_72218c"
+}

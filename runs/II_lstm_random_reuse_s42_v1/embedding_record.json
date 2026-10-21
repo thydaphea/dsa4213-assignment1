@@ -1,0 +1,6 @@
+{
+  "method": "random_trainable",
+  "embedding_training_seconds": 0.0,
+  "setup_seconds": 0.0,
+  "note": "Original random initialization; learned jointly in Part I."
+}

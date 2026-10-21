@@ -1,0 +1,7 @@
+{
+  "seed": 52,
+  "examples_per_category": 2,
+  "high_unk_cutoff": 0.17647058823529413,
+  "candidate_flags_are_heuristics": true,
+  "categories_overlap": true
+}

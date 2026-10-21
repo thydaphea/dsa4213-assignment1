@@ -1,0 +1,8 @@
+{
+  "train_seconds": 1686.374292636001,
+  "validation_seconds": 64.81066155300141,
+  "train_including_validation_seconds": 1751.1849541890024,
+  "checkpoint_io_seconds_recorded": 7.893623248986842,
+  "observed_completed_session_wall_seconds": 1760.6063639429995,
+  "note": "Checkpoint I/O includes serialization and history write; wall includes exports. Unsaved interrupted work is not recoverable."
+}

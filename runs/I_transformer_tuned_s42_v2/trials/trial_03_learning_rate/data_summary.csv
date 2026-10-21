@@ -1,0 +1,4 @@
+split,raw_rows,retained_rows,removed_rows,lexical_tokens,unknown_tokens,unknown_pct,median_row_tokens,p95_row_tokens,max_row_tokens,vocab_size
+train,36718,21441,15277,2115237,160711,7.5977774594525345,90.0,252.0,746,10000
+validation,3760,2297,1463,221408,20450,9.236341956930191,86.0,245.0,437,10000
+test,4358,2792,1566,249905,25189,10.079430183469718,76.0,245.0,497,10000

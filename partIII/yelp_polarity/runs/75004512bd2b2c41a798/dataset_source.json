@@ -1,0 +1,14 @@
+{
+  "dataset_id": "fancyzhx/yelp_polarity",
+  "revision": "bbf1c97a1f0cf005e5aded43839fd814654a1557",
+  "url": "https://huggingface.co/datasets/fancyzhx/yelp_polarity",
+  "retrieved_utc": "2026-10-15T09:15:06.093956+00:00",
+  "official_counts": {
+    "train": 560000,
+    "test": 38000
+  },
+  "hf_label_names": [
+    "1",
+    "2"
+  ]
+}

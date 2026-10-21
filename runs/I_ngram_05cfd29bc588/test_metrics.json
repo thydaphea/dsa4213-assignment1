@@ -1,0 +1,19 @@
+{
+  "run_id": "I_ngram_05cfd29bc588",
+  "split": "test",
+  "nll_sum": 1246436.0691912237,
+  "token_count": 252697,
+  "ce": 4.93253212025162,
+  "ppl": 138.7303498995574,
+  "rss_before_mib": 671.265625,
+  "seconds": 1.2950927589999992,
+  "process_cpu_seconds": 1.278343226000004,
+  "rss_after_mib": 676.92578125,
+  "sampled_peak_rss_mib": 676.92578125,
+  "sampled_peak_increment_mib": 5.66015625,
+  "data_hash": "5c68d62efdf5e7236754190978c709f406f05596b4ee29b56d35e6a628af21c2",
+  "vocab_hash": "da376c5f340c8656c3bec7b41daa4fbd0df83a827a451273748269240740e880",
+  "target_ids_sha256": "d2d9b7c190d276289c49d4c953deca161d517617b37e7effa3c17137875144af",
+  "checkpoint_sha256": "3debb64f30ec967c1937dcc2fa117f6b5226a287bbff0acd1a287bf4159d8e0a",
+  "evaluation_session_id": "20261014T154830Z_185bd5"
+}

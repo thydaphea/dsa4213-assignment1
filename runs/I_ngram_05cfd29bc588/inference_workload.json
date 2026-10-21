@@ -1,0 +1,52 @@
+{
+  "workload_id": "cc76ff95e65571a9d42d5dc86746e3d78f02ae8cfb3084f56d1e1fd182a85ccf",
+  "prompt_texts": [
+    "the history of",
+    "the city is",
+    "during the first",
+    "the team won"
+  ],
+  "prompt_ids": [
+    [
+      4,
+      301,
+      7
+    ],
+    [
+      4,
+      95,
+      27
+    ],
+    [
+      62,
+      4,
+      41
+    ],
+    [
+      4,
+      165,
+      237
+    ]
+  ],
+  "vocab_hash": "da376c5f340c8656c3bec7b41daa4fbd0df83a827a451273748269240740e880",
+  "prompt_file_sha256": "e21a106e0bb834b5dfe34b36c33c4ff7aeb3dad55c56831f9e1147bcf1b43a8b",
+  "batch_size": 1,
+  "generated_tokens_per_prompt": 50,
+  "decoding": "greedy",
+  "stop_at_eos": false,
+  "forbidden_ids": [
+    0,
+    1,
+    2
+  ],
+  "bos_prefix": true,
+  "tie_break": "lowest token ID",
+  "neural_context_limit": 64,
+  "neural_cache_policy": "recompute prefix; no KV cache or persistent recurrent state",
+  "ngram_context_limit": 2,
+  "ngram_cache_policy": "none",
+  "CPU_threads": 1,
+  "warmups": 1,
+  "repeats": 3,
+  "timed_scope": "probability computation and token selection; exclude loading/tokenization/text/I-O"
+}

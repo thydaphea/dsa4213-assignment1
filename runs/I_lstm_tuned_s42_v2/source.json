@@ -1,0 +1,16 @@
+{
+  "dataset_id": "Salesforce/wikitext",
+  "dataset_config": "wikitext-2-raw-v1",
+  "revision": null,
+  "note": "Existing snapshot; original revision and download date unknown.",
+  "raw_text_sha256": {
+    "train": "67f12e158c3c4ac50e56da3e2b830afe3f702227b310ff4afbffaea62f6759fc",
+    "validation": "b7fa33aee6ef63d15dd4b411f03501fdee2eaad9ec7f584abd4424cb3786143a",
+    "test": "3e0a921f6e5a2a337cd1d5752e9653d39216eeaa101df184183842bfa414c62d"
+  },
+  "raw_rows": {
+    "train": 36718,
+    "validation": 3760,
+    "test": 4358
+  }
+}

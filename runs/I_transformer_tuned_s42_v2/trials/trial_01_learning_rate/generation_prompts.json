@@ -1,0 +1,54 @@
+[
+  {
+    "text": "the history of",
+    "tokens": [
+      "the",
+      "history",
+      "of"
+    ],
+    "ids": [
+      4,
+      301,
+      7
+    ]
+  },
+  {
+    "text": "the city is",
+    "tokens": [
+      "the",
+      "city",
+      "is"
+    ],
+    "ids": [
+      4,
+      95,
+      27
+    ]
+  },
+  {
+    "text": "during the first",
+    "tokens": [
+      "during",
+      "the",
+      "first"
+    ],
+    "ids": [
+      62,
+      4,
+      41
+    ]
+  },
+  {
+    "text": "the team won",
+    "tokens": [
+      "the",
+      "team",
+      "won"
+    ],
+    "ids": [
+      4,
+      165,
+      237
+    ]
+  }
+]

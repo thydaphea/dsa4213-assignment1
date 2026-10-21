@@ -1,0 +1,5 @@
+operation,filename,seconds
+serialize_and_save,counts.pkl,3.487910176000014
+serialize_and_save,model.pkl,3.4535894079999707
+serialize_and_save,inference.pkl,4.932676750999974
+load,inference.pkl,3.634630799999968

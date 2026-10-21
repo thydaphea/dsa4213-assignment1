@@ -1,0 +1,8 @@
+{
+  "starting_epoch": 0,
+  "ending_epoch": 40,
+  "train_seconds": 1253.7743392940029,
+  "validation_seconds": 45.78480805399704,
+  "checkpoint_io_seconds": 4.976526921005643,
+  "observed_wall_seconds": 1305.509627211999
+}

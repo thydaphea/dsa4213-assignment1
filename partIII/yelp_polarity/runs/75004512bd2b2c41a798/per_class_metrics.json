@@ -1,0 +1,122 @@
+[
+  {
+    "variant": "random_trainable",
+    "split": "validation",
+    "label": 0,
+    "class_name": "Negative",
+    "precision": 0.7596153846153846,
+    "recall": 0.79,
+    "f1-score": 0.7745098039215687,
+    "support": 500.0
+  },
+  {
+    "variant": "random_trainable",
+    "split": "validation",
+    "label": 1,
+    "class_name": "Positive",
+    "precision": 0.78125,
+    "recall": 0.75,
+    "f1-score": 0.7653061224489796,
+    "support": 500.0
+  },
+  {
+    "variant": "random_trainable",
+    "split": "test",
+    "label": 0,
+    "class_name": "Negative",
+    "precision": 0.7514910536779325,
+    "recall": 0.756,
+    "f1-score": 0.7537387836490529,
+    "support": 500.0
+  },
+  {
+    "variant": "random_trainable",
+    "split": "test",
+    "label": 1,
+    "class_name": "Positive",
+    "precision": 0.7545271629778671,
+    "recall": 0.75,
+    "f1-score": 0.7522567703109327,
+    "support": 500.0
+  },
+  {
+    "variant": "cbow_frozen",
+    "split": "validation",
+    "label": 0,
+    "class_name": "Negative",
+    "precision": 0.7873563218390804,
+    "recall": 0.822,
+    "f1-score": 0.8043052837573386,
+    "support": 500.0
+  },
+  {
+    "variant": "cbow_frozen",
+    "split": "validation",
+    "label": 1,
+    "class_name": "Positive",
+    "precision": 0.8138075313807531,
+    "recall": 0.778,
+    "f1-score": 0.7955010224948875,
+    "support": 500.0
+  },
+  {
+    "variant": "cbow_frozen",
+    "split": "test",
+    "label": 0,
+    "class_name": "Negative",
+    "precision": 0.7429111531190926,
+    "recall": 0.786,
+    "f1-score": 0.7638483965014577,
+    "support": 500.0
+  },
+  {
+    "variant": "cbow_frozen",
+    "split": "test",
+    "label": 1,
+    "class_name": "Positive",
+    "precision": 0.772823779193206,
+    "recall": 0.728,
+    "f1-score": 0.7497425334706488,
+    "support": 500.0
+  },
+  {
+    "variant": "glove_frozen",
+    "split": "validation",
+    "label": 0,
+    "class_name": "Negative",
+    "precision": 0.7961904761904762,
+    "recall": 0.836,
+    "f1-score": 0.8156097560975609,
+    "support": 500.0
+  },
+  {
+    "variant": "glove_frozen",
+    "split": "validation",
+    "label": 1,
+    "class_name": "Positive",
+    "precision": 0.8273684210526315,
+    "recall": 0.786,
+    "f1-score": 0.8061538461538461,
+    "support": 500.0
+  },
+  {
+    "variant": "glove_frozen",
+    "split": "test",
+    "label": 0,
+    "class_name": "Negative",
+    "precision": 0.8062622309197651,
+    "recall": 0.824,
+    "f1-score": 0.8150346191889218,
+    "support": 500.0
+  },
+  {
+    "variant": "glove_frozen",
+    "split": "test",
+    "label": 1,
+    "class_name": "Positive",
+    "precision": 0.820040899795501,
+    "recall": 0.802,
+    "f1-score": 0.8109201213346815,
+    "support": 500.0
+  }
+]

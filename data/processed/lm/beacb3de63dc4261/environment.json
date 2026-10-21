@@ -1,0 +1,11 @@
+{
+  "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+  "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+  "created_utc": "2026-10-12T03:46:12.463503+00:00",
+  "packages": {
+    "datasets": "4.8.5",
+    "huggingface_hub": "1.33.0",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3"
+  }
+}

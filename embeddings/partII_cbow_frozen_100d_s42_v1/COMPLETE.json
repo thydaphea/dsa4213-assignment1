@@ -1,0 +1,28 @@
+{
+  "config": {
+    "variant": "cbow_frozen",
+    "dimension": 100,
+    "vocab_sha256": "da376c5f340c8656c3bec7b41daa4fbd0df83a827a451273748269240740e880",
+    "train_tokens_sha256": "ce640a177218ef07b9b353dd10bbf6572907690ab5b2e14b03a8dae153582259",
+    "baseline_initial_sha256": "e99f8e2483cdc8e1b0f593376518df90eb3b7850b4bcf95159426c79fce23279",
+    "fallback": "original baseline random vector; PAD=0; entire table frozen",
+    "cbow": {
+      "epochs": 10,
+      "window": 5,
+      "negative": 5,
+      "sample": 0.001,
+      "alpha": 0.025,
+      "min_alpha": 0.0001
+    },
+    "public_source": null,
+    "source_mode": null
+  },
+  "files": {
+    "matrix.npy": "e8270b0e3506f54dfab948dac7d81ce876acbedf4cdec48fa0b878426282c6ea",
+    "coverage_mask.npy": "d7139748f5aff7810a6f036a5d0eeb84b3b1a13f477ec2db6d8f700ea99ddcf5",
+    "embedding_record.json": "c8107d25fca3ef051772e3f1bc6d5c99a5976490649b827b3d27ae3e1bff1058",
+    "config.json": "fc6aa653eb7d62f8e315bf6683129ddce3629557203f8c58041002aec7c29fc7",
+    "cbow_history.csv": "4099fd7201d89dbbda8e4affcfa3a13fb27a027d5188eacbdae26c3f8a9d5d24",
+    "cbow_vectors.kv": "cdcb8575f3bfb561d0ae34a08ca12b4f8bda730923236dc52f655a7f4237d574"
+  }
+}

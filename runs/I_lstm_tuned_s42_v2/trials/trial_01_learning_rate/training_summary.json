@@ -1,0 +1,64 @@
+{
+  "trial_id": "trial_01_learning_rate",
+  "learning_rate": 0.0003,
+  "dropout": 0.2,
+  "hidden_size": 128,
+  "best_validation_ce": 4.549596641119163,
+  "best_epoch": 50,
+  "epochs_completed": 50,
+  "stop_reason": "max_epochs",
+  "complete": true,
+  "train_seconds": 1193.3360840859998,
+  "validation_seconds": 48.483620811000435,
+  "train_including_validation_seconds": 1241.8197048970003,
+  "total_parameters": 2407760,
+  "checkpoint_io_seconds": 6.362768739001012,
+  "config": {
+    "embedding_dim": 100,
+    "hidden_size": 128,
+    "num_layers": 1,
+    "dropout": 0.2,
+    "batch_size": 32,
+    "epochs": 50,
+    "learning_rate": 0.0003,
+    "weight_decay": 0.0,
+    "clip_norm": 1.0,
+    "seed": 42,
+    "shuffle_seed": 43,
+    "generation_seed": 123,
+    "precision": "float32",
+    "embedding_mode": "random_trainable",
+    "early_stopping_patience": 7,
+    "early_stopping_min_delta": 0.0001,
+    "scheduler_factor": 0.5,
+    "scheduler_patience": 2,
+    "min_learning_rate": 1e-05,
+    "search_learning_rates": [
+      0.0003,
+      0.001,
+      0.003
+    ],
+    "search_dropouts": [
+      0.1,
+      0.4
+    ],
+    "search_hidden_sizes": [
+      64,
+      256
+    ],
+    "run_id": "trial_01_learning_rate",
+    "vocab_size": 10000,
+    "block_length": 64,
+    "data_version": "beacb3de63dc4261",
+    "vocab_sha256": "da376c5f340c8656c3bec7b41daa4fbd0df83a827a451273748269240740e880",
+    "data_manifest_sha256": "5c68d62efdf5e7236754190978c709f406f05596b4ee29b56d35e6a628af21c2",
+    "prompts_sha256": "e21a106e0bb834b5dfe34b36c33c4ff7aeb3dad55c56831f9e1147bcf1b43a8b",
+    "special_ids": {
+      "PAD": 0,
+      "UNK": 1,
+      "BOS": 2,
+      "EOS": 3
+    }
+  },
+  "relative_dir": "trials/trial_01_learning_rate"
+}

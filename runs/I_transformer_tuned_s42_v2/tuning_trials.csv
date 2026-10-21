@@ -1,0 +1,8 @@
+trial_id,learning_rate,dropout,dim_feedforward,best_validation_ce,best_epoch,epochs_completed,stop_reason,complete,train_seconds,validation_seconds,train_including_validation_seconds,total_parameters,checkpoint_io_seconds,relative_dir,stage
+trial_01_learning_rate,0.0003,0.2,400,4.364239625139343,49,50,max_epochs,True,1489.1269644039994,57.1155978860005,1546.24256229,2259200,6.217283411999688,trials/trial_01_learning_rate,learning_rate
+trial_02_learning_rate,0.001,0.2,400,4.330732373419026,49,50,max_epochs,True,1497.5260627739995,57.05647208399887,1554.5825348579983,2259200,6.179648727999847,trials/trial_02_learning_rate,learning_rate
+trial_03_learning_rate,0.003,0.2,400,4.3302912079646605,50,50,max_epochs,True,1490.556851886001,56.703144463000626,1547.2599963490015,2259200,5.906341526997494,trials/trial_03_learning_rate,learning_rate
+trial_04_dropout,0.003,0.1,400,4.319155121412337,37,44,early_stopping,True,1319.136665625998,49.95867876600187,1369.0953443919998,2259200,5.345417751997957,trials/trial_04_dropout,dropout
+trial_05_dropout,0.003,0.4,400,4.633488861368417,50,50,max_epochs,True,1510.4269959040057,57.092926800000896,1567.5199227040066,2259200,6.136515783000505,trials/trial_05_dropout,dropout
+trial_06_dim_feedforward,0.003,0.1,200,4.347274481311535,31,38,early_stopping,True,1130.9959197049993,43.187488924004356,1174.1834086290037,2178800,4.3868999799960875,trials/trial_06_dim_feedforward,dim_feedforward
+trial_07_dim_feedforward,0.003,0.1,800,4.286436529418102,33,40,early_stopping,True,1253.7743392940029,45.78480805399704,1299.559147348,2420000,4.976526921005643,trials/trial_07_dim_feedforward,dim_feedforward

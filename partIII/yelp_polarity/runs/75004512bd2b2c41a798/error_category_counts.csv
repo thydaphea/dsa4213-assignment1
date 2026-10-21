@@ -1,0 +1,8 @@
+category,reviews
+Correct by all three,618
+Wrong by all three,90
+GloVe correct; CBOW or random wrong,195
+CBOW correct; GloVe wrong,66
+Negation candidates with at least one error,275
+Possible mixed sentiment / contrast with an error,226
+Unfamiliar vocabulary candidates with an error,128

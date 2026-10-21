@@ -1,0 +1,76 @@
+{
+  "part": "I",
+  "model": "interpolated_unigram_bigram_trigram",
+  "seed": 42,
+  "k_grid": [
+    1e-05,
+    0.0001,
+    0.001,
+    0.01,
+    0.1
+  ],
+  "weight_grid": [
+    [
+      0.05,
+      0.15,
+      0.8
+    ],
+    [
+      0.1,
+      0.3,
+      0.6
+    ],
+    [
+      0.2,
+      0.3,
+      0.5
+    ],
+    [
+      0.1,
+      0.6,
+      0.3
+    ],
+    [
+      0.3,
+      0.5,
+      0.2
+    ],
+    [
+      0.6,
+      0.3,
+      0.1
+    ]
+  ],
+  "selection": "minimum validation CE; candidate order breaks exact ties",
+  "short_history": "trigram reuses bigram at first block position",
+  "device": "cpu",
+  "CPU_threads": 1,
+  "probability_precision": "float64",
+  "count_storage": "Python integer sparse dictionaries",
+  "training_passes": 1,
+  "data_hash": "5c68d62efdf5e7236754190978c709f406f05596b4ee29b56d35e6a628af21c2",
+  "vocab_hash": "da376c5f340c8656c3bec7b41daa4fbd0df83a827a451273748269240740e880",
+  "module_hash": "b7cd39e9e7598b7fb0f8163e742ac2c2d4fe0d4712e460a765f8b62f3cba1372",
+  "data_version": "beacb3de63dc4261",
+  "block_length": 64,
+  "generation": {
+    "max_new_tokens": 50,
+    "temperature": 0.8,
+    "top_k": 50,
+    "seed_per_prompt": 123,
+    "forbidden_ids": [
+      0,
+      1,
+      2
+    ]
+  },
+  "benchmark": {
+    "warmups": 1,
+    "repeats": 3,
+    "batch_size": 1,
+    "decoding": "greedy",
+    "tokens_per_prompt": 50,
+    "stop_at_eos": false,
+    "CPU_threads": 1
+  }
+}

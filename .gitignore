@@ -1,0 +1,15 @@
+/output/
+/results/
+/report_ignore/
+
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+
+~$*

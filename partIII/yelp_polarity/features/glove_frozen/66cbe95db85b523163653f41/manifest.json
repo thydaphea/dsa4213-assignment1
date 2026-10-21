@@ -1,0 +1,72 @@
+{
+  "spec": {
+    "model": {
+      "variant": "glove_frozen",
+      "run_dir": "/content/drive/MyDrive/DSA4213_Assignment1/runs/II_lstm_glove_frozen_s42_v1",
+      "checkpoint_sha256": "0085144efd21406177b6b0f1a6adc875ebdefdd31cd7334a363ba29e672b2496",
+      "config_sha256": "e0de5dba5c4d66da4b7117acb2242bec0455f3c54ec9627fc328def52669d8a5",
+      "model_source_sha256": "ec76ad20aba77314323cf59ed0107549ef602e2d5df781ed2ba813a6cff7a215",
+      "tokenizer_sha256": "5c8361afe131e0f155c2e2292bd77412a1b8f4e83ef04e858a1a120362d046d2",
+      "vocab_sha256": "da376c5f340c8656c3bec7b41daa4fbd0df83a827a451273748269240740e880",
+      "data_manifest_sha256": "5c68d62efdf5e7236754190978c709f406f05596b4ee29b56d35e6a628af21c2",
+      "embedding_dim": 100,
+      "hidden_size": 256,
+      "num_layers": 1,
+      "block_length": 64,
+      "best_epoch": 45,
+      "parameter_count": 3936592,
+      "all_parameters_frozen": true
+    },
+    "split_hash": "99a26850f43f96a06516511c8bcbfe55fa0c2e5c33cf621febb8b8f903fd8d95",
+    "extraction": {
+      "pipeline_version": "partIII_yelp_v1",
+      "pooling": "top-layer lexical-token mean across independently reset nonoverlapping chunks",
+      "block_length": 64,
+      "max_review_tokens": 256,
+      "bos": "once at review start",
+      "eos": "not appended; was a target at LM row ends",
+      "exclude_ids": [
+        0,
+        2,
+        3
+      ],
+      "retain_UNK_in_pool": true,
+      "dtype": "float32",
+      "batch_size": 128,
+      "torch_version": "2.11.0+cu130",
+      "numpy_version": "2.1.3"
+    }
+  },
+  "files": {
+    "features.npz": "92a339e08d45fda547e3778f69efe05aa568b4ce0586365f242f08b363778e36"
+  },
+  "seconds": 0.3698863770000571,
+  "reviews": 1000,
+  "chunks": 2610,
+  "dimension": 256,
+  "hardware": {
+    "utc": "2026-10-15T09:14:46.935010+00:00",
+    "python": "3.13.15 (main, Aug  6 2026, 11:06:22) [GCC 13.3.0]",
+    "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+    "cpu": "Intel(R) Xeon(R) CPU @ 2.00GHz",
+    "logical_cpus": 2,
+    "cpu_threads": 2,
+    "gpu": "Tesla T4",
+    "cuda_build": "13.0",
+    "device": "cuda",
+    "packages": {
+      "torch": "2.11.0+cu130",
+      "numpy": "2.1.3",
+      "pandas": "2.2.3",
+      "scikit-learn": "1.6.1",
+      "datasets": "4.8.5",
+      "huggingface_hub": "1.33.0",
+      "matplotlib": "3.10.0",
+      "joblib": "1.6.0",
+      "threadpoolctl": "3.7.0"
+    },
+    "seed": 42,
+    "deterministic_algorithms": "warn_only; cross-device bitwise identity not guaranteed"
+  },
+  "actual_model_sanity_checks_passed": true
+}

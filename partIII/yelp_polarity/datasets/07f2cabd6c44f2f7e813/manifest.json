@@ -1,0 +1,41 @@
+{
+  "spec": {
+    "pipeline_version": "partIII_yelp_v1",
+    "dataset_id": "fancyzhx/yelp_polarity",
+    "requested_revision": null,
+    "seed": 42,
+    "counts": {
+      "train": 8000,
+      "validation": 1000,
+      "test": 1000
+    },
+    "max_review_tokens": 256,
+    "tokenizer_sha256": "5c8361afe131e0f155c2e2292bd77412a1b8f4e83ef04e858a1a120362d046d2",
+    "vocab_sha256": "da376c5f340c8656c3bec7b41daa4fbd0df83a827a451273748269240740e880",
+    "sampling": "seeded random scan with equal class quotas; test first; disjoint normalized text and retained IDs",
+    "label_mapping": {
+      "0": "negative",
+      "1": "positive"
+    },
+    "sklearn_version": "1.6.1"
+  },
+  "source": {
+    "dataset_id": "fancyzhx/yelp_polarity",
+    "revision": "bbf1c97a1f0cf005e5aded43839fd814654a1557",
+    "url": "https://huggingface.co/datasets/fancyzhx/yelp_polarity",
+    "retrieved_utc": "2026-10-15T09:15:06.093956+00:00",
+    "official_counts": {
+      "train": 560000,
+      "test": 38000
+    },
+    "hf_label_names": [
+      "1",
+      "2"
+    ]
+  },
+  "files": {
+    "source.json": "4e1184880acab0a88297fb581ce2986746d796f339690c4b0f988eb4614b4710",
+    "reviews.jsonl": "84e65132309d11550d71d8d49829e39cd345ae30edf559c2686e0809fd4976a6",
+    "sampling_audit.csv": "315da45155c00473d79094929daf36e34d357af0fe39359f22a90960c32b3948"
+  }
+}

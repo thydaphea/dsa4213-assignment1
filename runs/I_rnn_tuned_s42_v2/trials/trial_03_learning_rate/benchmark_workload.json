@@ -1,0 +1,18 @@
+{
+  "prompt_sha256": "e21a106e0bb834b5dfe34b36c33c4ff7aeb3dad55c56831f9e1147bcf1b43a8b",
+  "prompt_count": 4,
+  "new_tokens_per_prompt": 50,
+  "decoding": "greedy",
+  "suppress_ids": [
+    0,
+    2,
+    1
+  ],
+  "eos_stopping": false,
+  "batch_size": 1,
+  "context_length": 64,
+  "cache_policy": "recompute_prefix_no_state",
+  "warmup_repeats": 1,
+  "timed_repeats": 3,
+  "workload_id": "064373f1e1a4dbb29422b2f3f26ca99cd80383a610b524fcb0b421f78b18d5ec"
+}
